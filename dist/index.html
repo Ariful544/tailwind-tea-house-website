@@ -10,9 +10,10 @@
 </head>
 
 <body class="box-border">
-    <header class=" max-w-screen-xl min-h-screen mx-auto flex gap-4 py-12">
+    <header class=" max-w-screen-xl min-h-screen mx-auto lg:flex lg:gap-4 py-12">
         <div>
-            <h1 class=" text-[80px] text-[#1C1C1C] font-extrabold leading-[100px]">It's good <br>tea time at The<br> Tea
+            <h1 class="w-full text-[80px] text-[#1C1C1C] font-extrabold leading-[100px]">It's good <br>tea time at
+                The<br> Tea
                 House</h1>
             <p class="text-[#777777] font-semibold mt-7 mb-7">Tea and Botanical Solutions Supplier Give Optimum<br>
                 Satisfaction To Your Taste Buds.</p>
@@ -64,7 +65,7 @@
             </div>
         </section>
         <!-- great-tea section  -->
-        <section class="max-w-screen-xl min-h-screen mx-auto  grid grid-cols-2 gap-12">
+        <section class="max-w-screen-xl min-h-screen mx-auto  grid lg:grid-cols-2 gap-12">
             <div class="grid grid-rows-3 grid-flow-col gap-5 h-[570px]">
                 <div class="bg-yellow-500/[0.1] rounded-xl shadow-lg row-span-1"></div>
                 <div class="bg-slate-500/[0.1] shadow-lg rounded-xl row-span-2 flex items-center justify-center">
@@ -100,8 +101,8 @@
         <section
             class="max-w-screen-xl min-h-screen mx-auto rounded-xl bg-gradient-to-r from-amber-500 to-red-500 relative">
             <div
-                class="bg-[url('./images/bg_cup.png')] bg-no-repeat bg-[bottom_left_15rem] max-w-screen-xl min-h-screen mx-auto grid grid-cols-2 gap-[50px]">
-                <div class="mt-[155px] pl-24 text-white">
+                class="bg-[url('./images/bg_cup.png')] bg-no-repeat bg-[bottom_left_15rem] max-w-screen-xl min-h-screen mx-auto grid lg:grid-cols-2 gap-[50px]">
+                <div class="mt-[155px] lg:pl-24 text-white">
                     <h3 class="text-5xl font-extrabold leading-[60px] mb-8">Meet Our Super<br> Clients</h3>
                     <p class="text-[rgb(244, 244, 244)] text-base leading-7 font-medium mb-7">There are many variations
                         of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by
@@ -191,6 +192,63 @@
             </div>
         </section>
     </main>
+    <!-- footer section -->
+    <footer class=" max-w-full min-h-screen bg-yellow-500/25 mt-32">
+        <div class=" max-w-screen-xl mx-auto pt-32">
+            <div class="flex justify-between">
+                <img class="border border-dashed border-slate-400" src="./images/cup.png" alt="">
+                <div class="flex items-center gap-10">
+                    <h3 class="text-[#494949] font-medium text-xl">Ready to get strated?</h3>
+                    <button class="btn-primary">Get Started</button>
+                </div>
+            </div>
+            <div class=" mt-24 grid lg:grid-cols-4 gap-8">
+                <div>
+                    <h4 class="text-xl font-bold">Quick Links</h4>
+                    <ul class="mt-6">
+                        <li class="mb-4"><a class="text-[#494949]" href="">Home</a></li>
+                        <li class="mb-4"><a class="text-[#494949]" href="">About Us</a></li>
+                        <li class="mb-4"><a class="text-[#494949]" href="">Insurance</a></li>
+                        <li class="mb-4"><a class="text-[#494949]" href="">Privacy Policy</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="text-xl font-bold">Our Service</h4>
+                    <ul class="mt-6">
+                        <li class="mb-4"><a class="text-[#494949]" href="">Life Insurance</a></li>
+                        <li class="mb-4"><a class="text-[#494949]" href="">Car Insurance</a></li>
+                        <li class="mb-4"><a class="text-[#494949]" href="">Health Insurance</a></li>
+                        <li class="mb-4"><a class="text-[#494949]" href="">House Insurance</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="text-xl font-bold">Help</h4>
+                    <ul class="mt-6">
+                        <li class="mb-4"><a class="text-[#494949]" href="">FAQs</a></li>
+                        <li class="mb-4"><a class="text-[#494949]" href="">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="text-2xl font-bold leading-10">Subscribe to our<br> newsletter</h4>
+                    <form action="#" class="mt-10 w-full relative">
+                        <input
+                            class="w-full py-3 border-b-[1px] placeholder:text-[#494949] border-[#494949] bg-transparent"
+                            type="text" placeholder="Email address">
+                        <button
+                            class=" absolute top-2 right--0 w-8 h-8 rounded-full bg-gradient-to-r from-orange-600 to-red-500 text-white">></button>
+                    </form>
+                    <div class="flex gap-5 mt-8 text-2xl">
+                        <a class="text-[#494949]" href=""><i class="fa-brands fa-facebook-f"></i></a>
+                        <a class="text-[#494949]" href=""><i class="fa-brands fa-x-twitter"></i></a>
+                        <a class="text-[#494949]" href=""><i class="fa-brands fa-square-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="max-w-screen-xl mx-auto mt-12 text-center text-[#494949]">
+            <p>© 2027 UIDesign.to - All rights reserved.</p>
+        </div>
+    </footer>
 </body>
 
 </html>
